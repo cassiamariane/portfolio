@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:visited, a:active {
+    color: #fff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgba(137, 15, 157, 0.5035), rgba(137, 15, 157, 0.212));
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: right;
+    padding: 25px;
+    font-size: 150%;
+    margin-right: 60px;
+}
+
+.principal{
+    border-top: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.foto-perfil{
+    max-width: 60%;
+    border-radius: 100%;
+}
+
+.icon{
+    max-width: 50px;
+}
+
+#perfil{
+    width: 300px;
+    height: 400px;
+    background: rgba(137, 15, 157, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#botao{
+    width: 160px;
+    height: 50px;
+    background: #415EB3;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+#conteudo{
+    width: 800px;
+    height: 600px;
+    background: rgba(137, 15, 157, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#sobre p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.icones{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icones .icon{
+    max-width: 80px;
+}
+
+footer{
+    padding: 30px;
+    border-top: 0.5px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
